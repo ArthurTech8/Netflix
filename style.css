@@ -23,7 +23,8 @@ main {
 main h1 {
     color: #fff;
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    font-family: "Google Sans", sans-serif; 
 }
 ul {
     display: flex;
@@ -53,4 +54,5 @@ li img:hover{
 }
 li {
     color: gray;
+    list-style-type: none;
 }
