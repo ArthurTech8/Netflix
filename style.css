@@ -34,11 +34,19 @@ ul {
 }
 button {
     background-color: black;
-    font-size: medium;
+    font-size: large;
+    height: 28px;
+    width: 200px;
     color: grey;
     border-color: grey;
     border-style:solid;
     transition: all 0.5s ease-in-out;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 button:hover {
     transform: scale(1.1);
@@ -47,6 +55,7 @@ li img {
     width: 124px;
     height: 124px;
     transition:all 0.5s ease-in-out
+    
 }
 li img:hover{
     transform: scale(1.25);
